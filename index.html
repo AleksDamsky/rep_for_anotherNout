@@ -11,11 +11,14 @@
 <body>
     <!-- <header></header> -->
     <main class="main">
-        <p class="description">Внизу будет прохождене &lt;input&gt;
-            id в форме должен быть уникальным. id в отличие от name не передается на сервер. 
+        <p class="description">Внизу будет прохождене &lt;input&gt;.<br>
+            id в форме должен быть уникальным. <br> id в отличие от name не передается на сервер.
+            <br>&lt;label&gt; - нужен для того, чтобы связать текст с сервером. 
         </p>
         <form action="#" method="get">
-            <input type="text" name="input" id="i">
+            <label>
+            <input type="text" name="input" id="i" value="текст по умолчанию">
+            </label>
         </form>
     </main>
 </body>
