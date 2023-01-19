@@ -1,5 +1,22 @@
 body{
+    width: 1200px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Контейнер */
+.container{
+    width: 800px;
+    margin: 0 100px 0 100px;
+}
+
+/*Шапка*/
+.header{
+    position: absolute;
+    width: 100%;
+}
+
+.header-part1{
+    justify-content: space-between;
 }
