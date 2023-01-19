@@ -11,7 +11,7 @@ li{
 
 /* Контейнер */
 .container{
-    width: 800px;
+    /* width: 800px; */
     margin: 0 100px 0 100px;
 }
 
@@ -24,15 +24,22 @@ li{
 .header-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-cart{
+    /* width:100%; */
+    padding-left: 5em;
 }
 
 /* Звезды */
 
-.header-starGroup{
-    box-sizing: border-box;
-}
-
 .star1, .star2{
     width: 1em;
     position: absolute;
+}
+
+.star1{
+    margin-top: -20px;
+    margin-right: 20px;
 }
