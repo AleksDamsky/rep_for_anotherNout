@@ -5,6 +5,10 @@ body{
     box-sizing: border-box;
 }
 
+li{
+   list-style-type: none;
+}
+
 /* Контейнер */
 .container{
     width: 800px;
@@ -12,11 +16,23 @@ body{
 }
 
 /*Шапка*/
-.header{
-    position: absolute;
-    width: 100%;
+
+.haeder-container{
+    margin: 50px 110px;
 }
 
-.header-part1{
+.header-nav{
+    display: flex;
     justify-content: space-between;
+}
+
+/* Звезды */
+
+.header-starGroup{
+    box-sizing: border-box;
+}
+
+.star1, .star2{
+    width: 1em;
+    position: absolute;
 }
